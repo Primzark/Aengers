@@ -1,0 +1,104 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5dc;
+    color: #333;
+}
+
+header {
+    display:flex;
+    background-color: #efe3c4;
+    margin-inline: 120px;
+    margin-top: 20px;
+    padding: 15px 0;
+    text-align: center;
+}s
+
+.navbar-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    align-items: center; /* Vertically center items */
+    justify-content: space-between; /* Space between logo and nav */
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav a {
+    margin-left: 20px; /* Adjust spacing between links */
+    text-decoration: none;
+    color: #ff6c00;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px 0;
+}
+
+.section {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.section h2 {
+    color: #ff6c00;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    padding-bottom: 60px;
+}
+
+.section .content img {
+    width: 200px;
+    height: auto;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    float: left;
+    margin-right: 15px;
+}
+
+.section p {
+    margin: 10px 0;
+    color: #666;
+}
+
+.section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.button {
+    display: inline-block;
+    position: relative;
+    margin-left:82%;
+    padding: 10px 20px;
+    background-color: #ff6c00;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #333;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    color: #d3bd76;
+    font-weight: bold;
+}
